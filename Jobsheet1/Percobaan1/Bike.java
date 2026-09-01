@@ -1,0 +1,44 @@
+package Percobaan1;
+
+public class Bike {
+    private String brand;
+    private int speed;
+    private int gear=1;
+
+    private final int[] GEAR_SPEED_LIMITS = {5,10,25,30,40,60};
+    public void setBrand(String brandName){
+        brand = brandName;
+    }
+    public void gearChanges(int gearValue){
+        if (gearValue < 1 || gearValue > 6) {
+            System.out.println("Invalid gear value. Gear must be between 1 and 6.");
+        }
+        else {
+            gear = gearValue;
+        }
+    }
+    public int speedAcceleration(int increment) {
+        speed += increment;
+        int maxSpeed = GEAR_SPEED_LIMITS[gear - 1]; 
+
+        if (speed > maxSpeed) {
+            speed = maxSpeed;
+            System.out.println("[" + brand + "] Kecepatan mencapai batas max Gear " + gear + " (" + maxSpeed + " km/jam)");
+        }
+        return speed;
+    }
+    public int speedDeceleration(int decrement){
+        speed -= decrement;
+        if (speed < 0) {
+            speed = 0;
+        }
+        return speed;
+    }
+    public void printInfo(){
+        System.out.println("----------------------");
+        System.out.println("Brand : " + brand);
+        System.out.println("Speed : " + speed + " km/jam");
+        System.out.println("Gear : " + gear);
+        System.out.println("----------------------");
+    }
+}
