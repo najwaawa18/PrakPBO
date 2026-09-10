@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 package Jobsheet1;
+=======
+>>>>>>> 1e326c1d84a44d330810d16777f5d3579c567cce
 class Product {
     private final String itemName;
     private final float price;
