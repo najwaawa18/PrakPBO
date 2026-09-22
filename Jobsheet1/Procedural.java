@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 package Jobsheet1;
-=======
->>>>>>> 1e326c1d84a44d330810d16777f5d3579c567cce
 public class Procedural {
 
     public static void main(String[] args) {
