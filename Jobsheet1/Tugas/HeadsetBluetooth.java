@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-package Jobsheet1.Tugas;
-=======
 package Tugas;
-
->>>>>>> 1e326c1d84a44d330810d16777f5d3579c567cce
 public class HeadsetBluetooth extends Headset {
     private int kapasitasBaterai;
     private String versiBluetooth;
@@ -30,8 +25,6 @@ public class HeadsetBluetooth extends Headset {
         System.out.println("Versi BT: " + versiBluetooth);
         System.out.println("------------------------------");
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 1e326c1d84a44d330810d16777f5d3579c567cce
+
+

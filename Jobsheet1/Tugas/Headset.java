@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-package Jobsheet1.Tugas;
-=======
 package Tugas;
->>>>>>> 1e326c1d84a44d330810d16777f5d3579c567cce
-
 public class Headset {
     private String brand;
     private String warna;

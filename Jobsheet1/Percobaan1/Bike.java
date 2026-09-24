@@ -1,4 +1,4 @@
-package Jobsheet1.Percobaan1;
+package Percobaan1;
 public class Bike {
     private String brand;
     private int speed;

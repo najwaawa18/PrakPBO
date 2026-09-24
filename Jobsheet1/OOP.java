@@ -1,4 +1,3 @@
-package Jobsheet1;
 class Product {
     private final String itemName;
     private final float price;
